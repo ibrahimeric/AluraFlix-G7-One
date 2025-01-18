@@ -1,0 +1,78 @@
+/* Estilos generales para todos los botones */
+.button-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-column-gap: 20px;
+  grid-row-gap: 10px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.btn {
+  max-width: 200px;
+  height: 40px;
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-size: 11px;
+  font-weight: bold;
+  cursor: pointer;
+  border: 1px solid transparent;
+  transition: all 0.3s ease;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn:hover {
+  opacity: 0.8;
+  border-color: #0088ff;
+}
+
+/* Estilos comunes para los iconos */
+.button-home svg, .button-nuevo-video svg, .icon {
+  background-color: transparent;
+  color: #0088ff;
+  border-radius: 50%;
+}
+
+.button-nuevo-video svg {
+  padding: 2px;
+  border: 1.5px solid #0088ff;
+}
+
+.icon {
+  margin-right: 8px;
+  color: inherit;
+  background-color: transparent;
+}
+
+/* Estilos comunes para los botones con bordes redondeados y colores similares */
+.button-transparent, .button-guardar, .button-selected, .button-limpiar,
+.button-home, .button-nuevo-video {
+  background-color: transparent;
+  color: white;
+  border-color: white;
+}
+
+.button-selected {
+  background-color: black;
+  color: #0088ff;
+  border-color: #0088ff;
+}
+
+.button-limpiar {
+  background-color: white;
+  color: #0088ff;
+  border-color: #0088ff;
+}
+
+/* Estilos específicos para los botones con iconos */
+.button-home, .button-nuevo-video {
+  background-color: #0088ff59;
+  color: #0088ff;
+  border-color: #0088ff;
+  border-radius: 100px;
+  padding: 12px;
+}
