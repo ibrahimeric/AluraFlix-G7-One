@@ -1,11 +1,14 @@
-import React from 'react'
+import React from "react";
+import logo from "../../assets/logo.png";
+import { FooterContainer, Logo } from "./Footer.styled";
 
 const Footer = () => {
   return (
-    <div>
-      
-    </div>
-  )
-}
+    <FooterContainer>
+      <Logo src={logo} alt="AluraFlix logo" />
+      <p>Developer by Alura Latam &copy; 2025</p>
+    </FooterContainer>
+  );
+};
 
-export default Footer
+export default Footer;
