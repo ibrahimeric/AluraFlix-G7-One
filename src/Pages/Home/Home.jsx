@@ -1,6 +1,6 @@
 import React from 'react';
-import '../Styles/Home.css';
-import Button from '../Components/Button';
+import '../../Styles/Home.css';
+import Button from '../../Components/Button';
 import { FaHome, FaPlus } from "react-icons/fa";
 
 function Home() {
