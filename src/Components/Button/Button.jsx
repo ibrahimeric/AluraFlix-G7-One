@@ -1,11 +1,11 @@
-import React from 'react'
+import { StyledButton } from "./Button.styled";
 
-const Button = () => {
+const Button = ({ children, primary, className, ...props }) => {
   return (
-    <div>
-      
-    </div>
-  )
-}
+    <StyledButton primary={primary} className={className} {...props}>
+      {children}
+    </StyledButton>
+  );
+};
 
-export default Button
+export default Button;
